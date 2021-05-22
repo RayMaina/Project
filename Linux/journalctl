@@ -1,3 +1,0 @@
-journalctl -p 0  >> /home/sysadmin/Priority_High.txt
-journalctl -p 1 >> /home/sysadmin/Priority_High.txt
-journalctl -p 2 > /home/sysadmin/Priority_High.txt
