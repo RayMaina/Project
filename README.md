@@ -90,13 +90,21 @@ Run systemd to enable the service docker to start on boot
 
 
 The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
-Note: The following image link needs to be updated. Replace Docker_PS.png with the name of your screenshot image file.
+
+
+
+  ![docker_ps](https://github.com/RayMaina/Project/blob/main/Image/Docker_PS_.png)
+
 
 
 Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 
-TODO: List the IP addresses of the machines you are monitoring
+ List the IP addresses of the machines you are monitoring
+ 
+   Sysadmin- 10.0.0.5
+ 
+   Sysadmin-2 -10.0.0.6
 
 We have installed the following Beats on these machines:
 
