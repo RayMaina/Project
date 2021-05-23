@@ -136,7 +136,7 @@ Copy the and file to
 Update the file to include 
 Run the playbook, and navigate to to check that the installation worked as expected.
 
-TODO: Answer the following questions to fill in the blanks:
+
 
 Which file is the playbook? myELK.yml and filebeat.yml  Where do you copy it? /etc/ansible
 Which file do you update to make Ansible run the playbook on a specific machine? hosts How do I specify which machine to install the ELK server on versus which to install Filebeat on?Using each machines unique private IP with ansible_python_interpreter=/usr/bin/python3 and assigning the correct server group for each
