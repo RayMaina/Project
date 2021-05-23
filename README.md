@@ -116,7 +116,7 @@ MetricBeat
 
 These Beats allow us to collect the following information from each machine:
 
-TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., Winlogbeat collects Windows logs, which we use to track user logon events, etc.
+In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., Winlogbeat collects Windows logs, which we use to track user logon events, etc.
 
 
 Metricbeat records metrics and stats that are running on a server from this one can see what CPU memory is being used by a server at a particular time
@@ -129,14 +129,14 @@ Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
 SSH into the control node and follow the steps below:
 
-Copy the _____ file to _____.
-Update the _____ file to include...
-Run the playbook, and navigate to ____ to check that the installation worked as expected.
+Copy the and file to 
+Update the file to include 
+Run the playbook, and navigate to to check that the installation worked as expected.
 
 TODO: Answer the following questions to fill in the blanks:
 
-Which file is the playbook? Where do you copy it?
-Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?
+Which file is the playbook? myELK.yml and filebeat.yml  Where do you copy it? /etc/ansible
+Which file do you update to make Ansible run the playbook on a specific machine? hosts How do I specify which machine to install the ELK server on versus which to install Filebeat on?Using each machines unique private IP with ansible_python_interpreter=/usr/bin/python3 and assigning the correct server group for each
 _Which URL do you navigate to in order to check that the ELK server is running?
-
+http://IP Address of new VM:5601/app/kibana
 As a Bonus, provide the specific commands the user will need to run to download the playbook, update the files, etc.
