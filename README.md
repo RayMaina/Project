@@ -108,11 +108,21 @@ This ELK server is configured to monitor the following machines:
 
 We have installed the following Beats on these machines:
 
-TODO: Specify which Beats you successfully installed
+Specify which Beats you successfully installed 
+
+Filebeat
+
+MetricBeat
 
 These Beats allow us to collect the following information from each machine:
 
 TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., Winlogbeat collects Windows logs, which we use to track user logon events, etc.
+
+
+Metricbeat records metrics and stats that are running on a server from this one can see what CPU memory is being used by a server at a particular time
+
+
+Filebeat records log files in specified location such as audit logs that would enable a user to monitor what has occured in a system by reviewing the audit trail
 
 
 Using the Playbook
