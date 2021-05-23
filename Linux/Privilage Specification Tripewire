@@ -1,0 +1,3 @@
+# User privilege specification
+root ALL=(ALL:ALL) ALL
+tripwire ALL= NOPASSWD: /usr/sbin/tripwire
