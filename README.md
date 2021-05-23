@@ -36,10 +36,11 @@ The configuration details of each machine may be found below.
 Note: Use the Markdown Table Generator to add/remove values from the table.
 
 |Name.      | Function | IP Address  |Operating System|
-|-----------|:--------:|-------:     | --------:
-|mmm.       |          |sssss        |
-|dcss       | ssss     |sssss        |
-
+|-----------|:--------:|-------:     | --------:      |
+|Jumpbox2   |Gateway   |10.0.0.7     |Linux           |
+|Sys-ELK    |Server    |10.1.0.4     |Linux           |
+|Sysadmin   |Server    |10.0.0.5     |Linux           | 
+|Sysadmin-2 |Server    |10.0.0.6     |Linux           |
 
 Name
 Function
