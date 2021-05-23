@@ -1,9 +1,12 @@
 # Project
 #Contains a summary of a few topics covered 
+
 Automated ELK Stack Deployment
 The files in this repository were used to configure the network depicted below.
-Note: The following image link needs to be updated. Replace diagram_filename.png with the name of your diagram image file.
 
+
+
+![cloudsecurity](https://github.com/RayMaina/Project/blob/main/Diagrams/CloudSecurity.png)
 
 
 
@@ -83,7 +86,7 @@ In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Do
 
 
 Install Docker
-Install python3-pip
+Install python3-pip 
 Increase virtual memory by setting vm.max_map_count=262144
 Download and launch the docker elk container 
 Run systemd to enable the service docker to start on boot
