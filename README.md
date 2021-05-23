@@ -138,5 +138,5 @@ TODO: Answer the following questions to fill in the blanks:
 Which file is the playbook? myELK.yml and filebeat.yml  Where do you copy it? /etc/ansible
 Which file do you update to make Ansible run the playbook on a specific machine? hosts How do I specify which machine to install the ELK server on versus which to install Filebeat on?Using each machines unique private IP with ansible_python_interpreter=/usr/bin/python3 and assigning the correct server group for each
 _Which URL do you navigate to in order to check that the ELK server is running?
-http://IP Address of new VM:5601/app/kibana
+http://ipAddressofnewVM:5601/app/kibana
 As a Bonus, provide the specific commands the user will need to run to download the playbook, update the files, etc.
