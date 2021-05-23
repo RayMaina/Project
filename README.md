@@ -80,6 +80,8 @@ What is the main advantage of automating configuration with Ansible?Significantl
 The playbook implements the following tasks:
 
 In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc.
+
+
 Install Docker
 Install python3-pip
 Increase virtual memory by setting vm.max_map_count=262144
@@ -88,7 +90,7 @@ Run systemd to enable the service docker to start on boot
 
 
 The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
-Note: The following image link needs to be updated. Replace docker_ps_output.png with the name of your screenshot image file.
+Note: The following image link needs to be updated. Replace Docker_PS.png with the name of your screenshot image file.
 
 
 Target Machines & Beats
