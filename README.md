@@ -6,7 +6,7 @@ The files in this repository were used to configure the network depicted below.
 
 
 
-![cloudsecurity](https://github.com/RayMaina/Project/blob/main/Diagrams/Cloud.Security.png)
+![cloudsecurity]( https://github.com/RayMaina/Project/blob/main/Diagrams/CloudSecurity.png)
 
 
 
