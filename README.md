@@ -67,8 +67,8 @@ A summary of the access policies in place can be found in the table below.
 
 |Name       |Publicly Accessible   |Allowed IP Address|
 |---------- |:--------------------:|-----------------:|
-|Jumpbox2   |NO                    |154.122.6.246     |
-|Sys-ELK    |NO                    |10.1.0.4          |
+|Jumpbox2   |YES                    |154.122.6.246    |
+|Sys-ELK    |NO                     |10.1.0.4         |
 |Sysadmin   |NO                    |10.0.0.5          |
 |Sysadmin-2 |NO                    |10.0.0.6          |
 
